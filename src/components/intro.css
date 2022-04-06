@@ -1,0 +1,81 @@
+div.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.artists {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    align-items: center;
+}
+div.artists >div  {
+    padding: 10px;
+    margin: 20px;
+}
+
+.card1 {
+    background-color: rgb(127,255,212,0.5); /*rgb127,255,212*/
+    clip-path: circle(100px at 50%);
+    transition: all 1s;
+}
+.card1:hover {
+    background-color: rgb(127,255,212,0.9); /*rgb127,255,212*/
+    clip-path: circle(300px);
+}
+
+
+
+.card1 h1:hover {
+    color: rgb(9, 78, 55);
+}
+.card2 {
+    background-color: rgb(205,133,63,0.5);/*rgb205, 133,63*/
+    clip-path: circle(100px at 40%);
+    transition: all 1s;
+
+}
+
+.card2 h1::before{
+    content: "";
+    display:block;
+    position:fixed;
+    margin:0 0 -30px -3px;
+    width:2px;
+    height:3px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    transition: all 1s;
+    
+}
+
+.card2:hover {
+    background-color: rgb(205,133,63,0.9);/*rgb205, 133,63*/
+    clip-path: circle(300px);
+}
+.card3 {
+    background-color: rgb(216,112,147,0.5);/*rgb216,112,147*/
+    clip-path: circle(100px at 50%);
+    transition: all 1s;
+}
+.card3:hover {
+    background-color: rgb(216,112,147,0.9);/*rgb216,112,147*/
+    clip-path: circle(300px);
+}
+
+.card4 {
+    background-color: rgba(63, 95, 237, 0.5);/*rgb216,112,147*/
+    clip-path: circle(100px at 50%);
+    transition: all 1s;
+}
+.card4:hover {
+    background-color: rgba(63, 95, 237, 0.9);/*rgb216,112,147*/
+    clip-path: circle(300px);
+}
+
+
+img {
+    width:200px;
+    margin-top: 0px;
+
+}
