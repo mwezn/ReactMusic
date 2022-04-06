@@ -17,7 +17,7 @@ const MainPage =()=>{
     let result=artists.map((d,i)=>{
         return (
         <div className={'card'+(i+1)}>
-            <h1>{d.name}</h1><p>{d.genre}</p><img src={d.img}/>
+            <h1>{d.name}</h1><p>{d.genre}</p><img alt={i} src={d.img}/>
         </div>)
     })
     
