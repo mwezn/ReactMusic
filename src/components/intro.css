@@ -16,7 +16,7 @@ div.artists >div  {
 
 .card1 {
     background-color: rgb(127,255,212,0.5); /*rgb127,255,212*/
-    clip-path: circle(100px at 50%);
+    clip-path: circle(90px at 50%);
     transition: all 1s;
 }
 .card1:hover {
@@ -35,27 +35,13 @@ div.artists >div  {
     transition: all 1s;
 
 }
-
-.card2 h1::before{
-    content: "";
-    display:block;
-    position:fixed;
-    margin:0 0 -30px -3px;
-    width:2px;
-    height:3px;
-    border-radius: 10px;
-    background: rgb(255, 255, 255);
-    transition: all 1s;
-    
-}
-
 .card2:hover {
     background-color: rgb(205,133,63,0.9);/*rgb205, 133,63*/
     clip-path: circle(300px);
 }
 .card3 {
     background-color: rgb(216,112,147,0.5);/*rgb216,112,147*/
-    clip-path: circle(100px at 50%);
+    clip-path: circle(150px at 50%);
     transition: all 1s;
 }
 .card3:hover {
@@ -65,7 +51,7 @@ div.artists >div  {
 
 .card4 {
     background-color: rgba(63, 95, 237, 0.5);/*rgb216,112,147*/
-    clip-path: circle(100px at 50%);
+    clip-path: circle(180px at 50%);
     transition: all 1s;
 }
 .card4:hover {
@@ -75,7 +61,8 @@ div.artists >div  {
 
 
 img {
-    width:200px;
+    max-width:200px;
+    max-height: 100px;
     margin-top: 0px;
 
 }
