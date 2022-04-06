@@ -4,6 +4,7 @@ import './intro.css'
 import img1 from '../assets/c&s.png'
 import img2 from '../assets/cx.jpg'
 import img3 from '../assets/gc.jpg'
+import img4 from '../assets/wknd.webp'
 
 
 
@@ -12,7 +13,8 @@ const MainPage =()=>{
         {name: "Chronixx", genre:"Reggae", img:img2},
         {name: "Gorgon City", genre:"House/dance",img:img3},
         {name: "Chase & Status", genre:"Drum and Bass",img:img1},
-        {name: "The Weeknd", genre:"Pop"}
+        {name: "The Weeknd", genre:"Pop", img:img4},
+        {name: "Dave", genre: "Rap"}
     ]
     let result=artists.map((d,i)=>{
         return (
