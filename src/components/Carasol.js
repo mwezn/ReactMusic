@@ -35,7 +35,7 @@ class Cards extends React.Component {
         
         <div id="section2">
         <button style={btnStyle} onClick={(e)=>this.pausePlay()}>{this.state.buttonVal}</button>
-        <Carousel width="50%" height="50%" statusFormatter={(current, total) => `${current} / ${total}`} showThumbs={false} infiniteLoop={true} interval={3000} autoPlay={this.state.autoplay}>
+        <Carousel width="90%" height="100%" statusFormatter={(current, total) => `${current} / ${total}`} showThumbs={false} infiniteLoop={true} interval={3000} autoPlay={this.state.autoplay}>
         {slides2}
         </Carousel>
         </div>

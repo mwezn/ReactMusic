@@ -108,7 +108,7 @@ div.artists >div  {
 
 
 
-img {
+img.artists {
     max-width:200px;
     max-height: 100px;
     margin-top: 0px;
