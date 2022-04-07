@@ -8,6 +8,7 @@ div.artists {
     display: grid;
     grid-template-columns: 25% 25% 25% 25% ;
     align-items: center;
+    justify-content: left;
 }
 div.artists >div  {
     padding: 10px;

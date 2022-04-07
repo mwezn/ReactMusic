@@ -29,7 +29,7 @@ class Cards extends React.Component {
          <img  src={img2} alt="2" />  ,
          <img  src={img3} alt="3" />  ]
       return (
-        <div>
+        <div data-testid="carousel">
             <h1>React-responsive-carousel</h1>
         
         <div id="section2">
