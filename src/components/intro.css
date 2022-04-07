@@ -16,33 +16,40 @@ div.artists >div  {
 }
 
 .card1 {
-    background-color: rgb(127,255,212,0.5); /*rgb127,255,212*/
-    clip-path: circle(90px at 50%);
-    transition: all 1s;
+    background-color: rgb(127,255,212,0.3); /*rgb127,255,212*/
+    border:1px solid black;
+    transition: all .5s;
 }
 .card1:hover {
     background-color: rgb(127,255,212,0.9); /*rgb127,255,212*/
-    clip-path: circle(300px);
+    color:rgb(42, 241, 92);
+
 }
 
-
-
-.card1 h1:hover {
-    color: rgb(9, 78, 55);
-}
 .card2 {
-    background-color: rgb(205,133,63,0.5);/*rgb205, 133,63*/
-    clip-path: circle(100px at 40%);
+    background-color: rgb(205,133,63,0.3);/*rgb205, 133,63*/
+    border:1px solid black;
     transition: all 1s;
+    overflow: hidden;
 
 }
 .card2:hover {
     background-color: rgb(205,133,63,0.9);/*rgb205, 133,63*/
-    clip-path: circle(300px);
+    color:wheat;
+}
+.card2 img{
+    max-width: 200px;
+    max-height: 100px;
+    transition: all 1s;
+    
+}
+
+.card2:hover img{
+    transform: scale(1.8);
 }
 .card3 {
     background-color: rgb(216,112,147,0.5);/*rgb216,112,147*/
-    clip-path: circle(150px at 50%);
+    border:1px solid black;
     transition: all 1s;
 }
 .card3:hover {
@@ -52,7 +59,7 @@ div.artists >div  {
 
 .card4 {
     background-color: rgba(63, 95, 237, 0.5);/*rgb216,112,147*/
-    clip-path: circle(180px at 50%);
+    border:1px solid black;
     transition: all 1s;
 }
 .card4:hover {
@@ -60,10 +67,51 @@ div.artists >div  {
     clip-path: circle(300px);
 }
 
+.card5 {
+    background-color: rgba(82, 56, 169, 0.5);/*rgb216,112,147*/
+    border:1px solid black;
+    transition: all 1s;
+}
+.card5:hover {
+    background-color: rgba(82, 56, 169, 0.9);/*rgb216,112,147*/
+    clip-path: circle(300px);
+}
+
+.card6 {
+    background-color: rgba(17, 237, 212, 0.5);/*rgb216,112,147*/
+    border:1px solid black;
+    transition: all 1s;
+}
+.card6:hover {
+    background-color: rgba(17, 237, 212, 0.9);/*rgb216,112,147*/
+    clip-path: circle(300px);
+}
+.card7 {
+    background-color: rgba(237, 233, 17, 0.5);/*rgb216,112,147*/
+    border:1px solid black;
+    transition: all 1s;
+}
+.card7:hover {
+    background-color: rgba(237, 233, 17, 0.9);/*rgb216,112,147*/
+    clip-path: circle(300px);
+}
+.card8 {
+    background-color: rgba(237, 17, 208, 0.5);/*rgb216,112,147*/
+    border:1px solid black;
+    transition: all 1s;
+}
+.card8:hover {
+    background-color: rgba(237, 17, 208, 0.9);/*rgb216,112,147*/
+    clip-path: circle(300px);
+}
+
+
+
 
 img {
     max-width:200px;
     max-height: 100px;
     margin-top: 0px;
-
+    transition: all 1s;
 }
+

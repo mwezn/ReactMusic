@@ -30,7 +30,8 @@ class Cards extends React.Component {
          <img  src={img3} alt="3" />  ]
       return (
         <div data-testid="carousel">
-            <h1>React-responsive-carousel</h1>
+          <a href="/">Artists</a>
+        <h1>React-responsive-carousel</h1>
         
         <div id="section2">
         <button style={btnStyle} onClick={(e)=>this.pausePlay()}>{this.state.buttonVal}</button>

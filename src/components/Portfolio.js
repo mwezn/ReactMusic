@@ -21,16 +21,17 @@ const MainPage =()=>{
         {name:""}
     ]
     let result=artists.map((d,i)=>{
+        let classId=((i+1)%8)==0?8:((i+1)%8)
         return (
-        <div className={'card'+((i+1)%5)}>
+        <div className={'card'+classId}>
             <h1>{d.name}</h1><p>{d.genre}</p><img alt={i} src={d.img}/>
         </div>)
     })
     
     return(
         <div className="intro">
-            <h1>My favourite music</h1>
-            <h2>Hover over the circles below</h2>
+            <a href='/slides'>Slideshow</a>
+            <h1>My favourite artists</h1>
             <div className="artists">
                 {result}
             </div>
