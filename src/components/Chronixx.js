@@ -5,7 +5,7 @@ import './intro.css'
 
 const ProfilePage =()=>{
     const [AppState, setParams] = React.useState([]);
-    let url=`/artist/2`
+    let url=`/artist/0`
     
     async function data(){
         const options = {
@@ -45,7 +45,6 @@ const ProfilePage =()=>{
         )}
     return(
         <div className="intro">
-            <h1>The Weeknd</h1>
             <div className="artists">
             {AppState.length===0?"Loading":dataDivs()}
             </div>
