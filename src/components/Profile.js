@@ -1,11 +1,9 @@
 import React, { useEffect } from "react";
 import './intro.css'
 
-
-
-const ProfilePage =()=>{
+const ProfilePage =(props)=>{
     const [AppState, setParams] = React.useState([]);
-    let url=`/artist/0`
+    let url=`/artist/${props.id}`
     
     async function data(){
         const options = {

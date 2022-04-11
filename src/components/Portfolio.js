@@ -21,7 +21,7 @@ const MainPage =()=>{
     ]
     let artists=[
         {name: "Chronixx", genre:"Reggae", img:img2,href:"chronixx"},
-        {name: "Gorgon City", genre:"House/dance",img:img3},
+        {name: "Gorgon City", genre:"House/dance",img:img3,href:"gc"},
         {name: "Chase & Status", genre:"Drum and Bass",img:img1},
         {name: "The Weeknd", genre:"Pop", img:img4,href:"wknd"},
         {name: "Dave", genre: "Rap",img:img6},
