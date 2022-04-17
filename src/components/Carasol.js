@@ -3,12 +3,6 @@ import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 
-import img1 from '../assets/c&s.png'
-import img2 from '../assets/cx.jpg'
-import img3 from '../assets/gc.jpg'
-
-
-
 class Cards extends React.Component {
     constructor(props) {
       super(props)
@@ -25,9 +19,8 @@ class Cards extends React.Component {
       const btnStyle={width:"75px",height:"75px", position:"relative", top:"0px",backgroundColor:"rgb(1,1,1,0.7)",color:"white"}
       
       let slides2=[
-         <img  src={img1} alt="1" />,
-         <img  src={img2} alt="2" />  ,
-         <img  src={img3} alt="3" />  ]
+         <h1>HELLO</h1>
+        ,<h1>HELLO AGAIN</h1>]
       return (
         <div data-testid="carousel">
           <a href="/">Artists</a>

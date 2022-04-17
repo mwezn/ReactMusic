@@ -14,15 +14,21 @@ div.artists >div  {
     padding: 10px;
     margin: 20px;
 }
+.artists div {
+    width:100px;
+}
 
 .card1 {
     background-color: rgb(127,255,212,0.3); /*rgb127,255,212*/
     border:1px solid black;
     transition: all .5s;
+    
+    
 }
 .card1:hover {
     background-color: rgb(127,255,212,0.9); /*rgb127,255,212*/
     color:rgb(42, 241, 92);
+    z-index: 1;
 
 }
 
@@ -31,6 +37,7 @@ div.artists >div  {
     border:1px solid black;
     transition: all 1s;
     overflow: hidden;
+    
 
 }
 .card2:hover {
