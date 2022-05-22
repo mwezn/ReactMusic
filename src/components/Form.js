@@ -43,16 +43,18 @@ const Form = () =>{
        let e=inputVal.error
        console.log(e)
 		return (
-            <body>
+            <body className="matrix">
             <div>
                 {e?<h1>{inputVal.username} doesnt exist on github. Try a different one</h1>:null}
 			<form onSubmit={e=>onSubmit(e)}>
 				<input type="text" onChange={e=>onType(e)}></input>
                 <input type="submit" value="Search" />
 			</form>
+            </div>
+            
             {searched?<RenderList data={searched} username={inputVal.username}></RenderList>
             :<h2>Type a github username to find details</h2>}
-            </div>
+
             </body>
 			
 		);
